@@ -30,19 +30,33 @@ Ensures data integrity through foreign key constraints
 Key Tables:
 Table Name	Description
 book -	Stores all book details
+
 author- Author personal information
+
 book_author -	Links books to authors (many-to-many)
+
 publisher -	List of book publishers
+
 book_language -	Available languages for books
+
 customer -	Bookstore customers
+
 customer_address - Customer addresses with status
+
 address -	Address details
+
 country -	Countries where addresses are located
+
 address_status -	Status of each address (e.g., current, old)
+
 cust_order -	Orders placed by customers
+
 order_line -	Books in each order
+
 shipping_method	 - Available shipping methods
+
 order_status -	Possible statuses of an order
+
 order_history-	History of order status changes
 
 🔒 User Roles (Optional)
