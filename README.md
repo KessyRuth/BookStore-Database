@@ -1,4 +1,5 @@
 📚 Bookstore Database Project
+
 This project is a relational database system designed to manage and organize data for a fictional bookstore. It includes information on books, authors, customers, orders, shipping, and more.
 
 ✅ Project Objective
@@ -16,6 +17,7 @@ MySQL – for designing and managing the database
 Draw.io – for creating the Entity Relationship Diagram (ERD)
 
 📦 Features
+
 Tracks many-to-many relationships between books and authors
 
 Supports multiple addresses per customer with status tracking
@@ -27,21 +29,22 @@ Ensures data integrity through foreign key constraints
 📂 Database Structure
 Key Tables:
 Table Name	Description
-book	Stores all book details
-author	Author personal information
-book_author	Links books to authors (many-to-many)
-publisher	List of book publishers
-book_language	Available languages for books
-customer	Bookstore customers
-customer_address	Customer addresses with status
-address	Address details
-country	Countries where addresses are located
-address_status	Status of each address (e.g., current, old)
-cust_order	Orders placed by customers
-order_line	Books in each order
-shipping_method	Available shipping methods
-order_status	Possible statuses of an order
-order_history	History of order status changes
+book -	Stores all book details
+author- Author personal information
+book_author -	Links books to authors (many-to-many)
+publisher -	List of book publishers
+book_language -	Available languages for books
+customer -	Bookstore customers
+customer_address - Customer addresses with status
+address -	Address details
+country -	Countries where addresses are located
+address_status -	Status of each address (e.g., current, old)
+cust_order -	Orders placed by customers
+order_line -	Books in each order
+shipping_method	 - Available shipping methods
+order_status -	Possible statuses of an order
+order_history-	History of order status changes
+
 🔒 User Roles (Optional)
 You can implement user groups with different access levels:
 
